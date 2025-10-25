@@ -29,10 +29,15 @@ ____
 O projeto segue uma estrutura modular inspirada no padrão **MVVM**, separando responsabilidades em camadas claras:
 
 lib/
+
 ├── models/ # Estruturas de dados (ImageItem)
+
 ├── viewmodels/ # Lógica de estado e comunicação com API (GalleryViewModel)
+
 ├── views/ # Telas principais (GalleryPage, ImageDetailPage)
+
 ├── widgets/ # Componentes reutilizáveis (ShimmerGridItem)
+
 └── main.dart # Inicialização do app e providers
 
 
@@ -78,7 +83,7 @@ ____
     flutter run
 ____
 
-Decisão técnica
+## Decisão técnica
 
 Por estar em um ambiente Windows, não foi possível executar o Xcode ou Swift nativamente.
 Por isso, optei por implementar em Flutter, garantindo a entrega funcional e aplicando os mesmos princípios de arquitetura e boas práticas que seriam usados em Swift.
@@ -87,33 +92,21 @@ Essa abordagem permitiu manter o foco na lógica, experiência do usuário e est
 
 ____
 
-📋 Lista de tarefas
+## 📋 Lista de tarefas
 
- Criar estrutura base do projeto Flutter
-
- Integrar com API Picsum Photos
-
- Implementar exibição em grade
-
- Implementar pull-to-refresh
-
- Criar visualização em tela cheia (zoom e swipe)
-
- Adicionar autor da imagem
-
- Implementar animações Hero
-
- Adicionar shimmer loading
-
- Implementar tema claro/escuro
-
- Corrigir contraste no modo claro
-
- Criar transição customizada entre telas (fade + slide) (extra)
-
- Gravar GIF de demonstração (extra)
-
- Revisão do README final e documentação das decisões técnicas
+✅ Criar estrutura base do projeto Flutter
+✅ Integrar com API Picsum Photos
+✅ Implementar exibição em grade
+✅ Implementar pull-to-refresh
+✅ Criar visualização em tela cheia (zoom e swipe)
+✅ Adicionar autor da imagem
+✅ Implementar animações Hero
+✅ Adicionar shimmer loading
+✅ Implementar tema claro/escuro
+✅ Corrigir contraste no modo claro
+✅ Criar transição customizada entre telas (fade + slide) (extra)
+✅ Gravar GIF de demonstração (extra)
+✅ Revisão do README final e documentação das decisões técnicas
 ____
 
 ## Autor
