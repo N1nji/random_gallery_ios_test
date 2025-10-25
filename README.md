@@ -30,15 +30,11 @@ O projeto segue uma estrutura modular inspirada no padrão **MVVM**, separando r
 
 lib/
 
-├── models/ # Estruturas de dados (ImageItem)
-
-├── viewmodels/ # Lógica de estado e comunicação com API (GalleryViewModel)
-
-├── views/ # Telas principais (GalleryPage, ImageDetailPage)
-
-├── widgets/ # Componentes reutilizáveis (ShimmerGridItem)
-
-└── main.dart # Inicialização do app e providers
+├── models/ # Estruturas de dados (ImageItem)  
+├── viewmodels/ # Lógica de estado e comunicação com API (GalleryViewModel)  
+├── views/ # Telas principais (GalleryPage, ImageDetailPage)  
+├── widgets/ # Componentes reutilizáveis (ShimmerGridItem)  
+└── main.dart # Inicialização do app e providers  
 
 
 ____
@@ -94,19 +90,19 @@ ____
 
 ## 📋 Lista de tarefas
 
-✅ Criar estrutura base do projeto Flutter
-✅ Integrar com API Picsum Photos
-✅ Implementar exibição em grade
-✅ Implementar pull-to-refresh
-✅ Criar visualização em tela cheia (zoom e swipe)
-✅ Adicionar autor da imagem
-✅ Implementar animações Hero
-✅ Adicionar shimmer loading
-✅ Implementar tema claro/escuro
-✅ Corrigir contraste no modo claro
-✅ Criar transição customizada entre telas (fade + slide) (extra)
-✅ Gravar GIF de demonstração (extra)
-✅ Revisão do README final e documentação das decisões técnicas
+✅ Criar estrutura base do projeto Flutter  
+✅ Integrar com API Picsum Photos  
+✅ Implementar exibição em grade  
+✅ Implementar pull-to-refresh  
+✅ Criar visualização em tela cheia (zoom e swipe)  
+✅ Adicionar autor da imagem  
+✅ Implementar animações Hero  
+✅ Adicionar shimmer loading  
+✅ Implementar tema claro/escuro  
+✅ Corrigir contraste no modo claro  
+✅ Criar transição customizada entre telas (fade + slide) (extra)  
+✅ Gravar GIF de demonstração (extra)  
+✅ Revisão do README final e documentação das decisões técnicas  
 ____
 
 ## Autor
