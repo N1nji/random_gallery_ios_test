@@ -64,7 +64,7 @@ ____
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/galeria-aleatoria.git
+   git clone https://github.com/N1nji/galeria_aleatoria.git
 
 2. Entre na pasta:
     ```bash
